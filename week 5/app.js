@@ -1,6 +1,6 @@
 let getal = 0
 let budget = 100
-let product = 60
+let product = prompt()
 let hour = 22
 
 let output = document.getElementById("output")
@@ -10,9 +10,9 @@ function addNumber(){
 }
 
 if (budget > product) {
-    console.log("You got enough money!")
+    output.innerText = "Ik heb genoeg geld!"
   } else {
-    console.log("You don't got enough money")
+    output.innerHTML = "Ik heb niet genoeg geld"
   }
 
   if (hour < 12) {
