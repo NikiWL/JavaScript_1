@@ -5,7 +5,7 @@ let hour = 22
 
 let output = document.getElementById("output")
 
-function addNumber(){
+function changeNumber(){
     output.innerText = getal
 }
 
